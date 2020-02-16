@@ -1,17 +1,14 @@
-package com.tasche.springbootlearning.spring.di;
+package com.tasche.springbootlearning.spring.di.javaconfiguration;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class Main {
     public static void main(String[] args) {
-        //AnnotationConfigApplicationContext作为一个Spring容器
-        //接收输入一个配置类作为参数
         AnnotationConfigApplicationContext context =
-                new AnnotationConfigApplicationContext(DIConfig.class);
-
+                new AnnotationConfigApplicationContext(JavaConfig.class);
         UseFunctionService useFunctionService = context.getBean(UseFunctionService.class);
 
-        System.out.println(useFunctionService.sayHello("DI"));
+        System.out.println(useFunctionService.sayHello("Java Config DI"));
         context.close();
     }
 }

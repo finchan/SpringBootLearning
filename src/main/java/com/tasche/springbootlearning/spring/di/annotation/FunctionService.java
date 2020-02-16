@@ -1,4 +1,4 @@
-package com.tasche.springbootlearning.spring.di;
+package com.tasche.springbootlearning.spring.di.annotation;
 
 import org.springframework.stereotype.Service;
 
@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
  * @Service
  * @Repository
  * @Controller
+ * 但是@Bean注解在方法上，生命当前方法返回值为一个Bean
  */
 @Service
 public class FunctionService {
