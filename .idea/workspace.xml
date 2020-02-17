@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f1254d6b-46e4-45a5-8c8a-fa66e2585b04" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/SpringBootLearning.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasche/springbootlearning/spring/aspectj/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasche/springbootlearning/spring/aspectj/AopConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasche/springbootlearning/spring/aspectj/DemoAnnotationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasche/springbootlearning/spring/aspectj/DemoMethodService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasche/springbootlearning/spring/aspectj/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasche/springbootlearning/spring/aspectj/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\Practice\SpringBootLearning\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Development/maven3.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XvQfXYITwCP2xrRgYhGBAGamht" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tasche.springbootlearning.spring.di.javaconfiguration.Main" />
+      <module name="SpringBootLearning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tasche.springbootlearning.spring.di.javaconfiguration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tasche.springbootlearning.spring.aspectj.Main" />
+      <module name="SpringBootLearning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tasche.springbootlearning.spring.aspectj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tasche.springbootlearning.spring.di.Main" />
+      <module name="SpringBootLearning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tasche.springbootlearning.spring.di.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1254d6b-46e4-45a5-8c8a-fa66e2585b04" name="Default Changelist" comment="" />
+      <created>1581857344419</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581857344419</updated>
+      <workItem from="1581857346059" duration="10901000" />
+      <workItem from="1581924252622" duration="2708000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initialization">
+      <created>1581857502409</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581857502409</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initialization">
+      <created>1581858004726</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581858004726</updated>
+    </task>
+    <task id="LOCAL-00003" summary="The First Spring DI Sample">
+      <created>1581859886802</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581859886802</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Java Configuration">
+      <created>1581862995985</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581862995985</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initialization" />
+    <MESSAGE value="The First Spring DI Sample" />
+    <MESSAGE value="Java Configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Configuration" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="987" y="28" key="CommitChangelistDialog2" timestamp="1581862993472">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="987" y="28" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581862993472" />
+    <state x="1169" y="261" key="FileChooserDialogImpl" timestamp="1581857466747">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1169" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581857466747" />
+    <state width="1015" height="322" key="GridCell.Tab.0.bottom" timestamp="1581873651377">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1015" height="322" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581873651377" />
+    <state width="1015" height="322" key="GridCell.Tab.0.center" timestamp="1581873651377">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1015" height="322" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581873651377" />
+    <state width="1015" height="322" key="GridCell.Tab.0.left" timestamp="1581873651377">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1015" height="322" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581873651377" />
+    <state width="1015" height="322" key="GridCell.Tab.0.right" timestamp="1581873651377">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1015" height="322" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581873651377" />
+    <state width="1015" height="322" key="GridCell.Tab.1.bottom" timestamp="1581873651378">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1015" height="322" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581873651378" />
+    <state width="1015" height="322" key="GridCell.Tab.1.center" timestamp="1581873651377">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1015" height="322" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581873651377" />
+    <state width="1015" height="322" key="GridCell.Tab.1.left" timestamp="1581873651377">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1015" height="322" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581873651377" />
+    <state width="1015" height="322" key="GridCell.Tab.1.right" timestamp="1581873651377">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1015" height="322" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581873651377" />
+    <state x="869" y="94" key="SettingsEditor" timestamp="1581857420941">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="869" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581857420941" />
+    <state x="981" y="249" key="Vcs.Push.Dialog.v2" timestamp="1581929646267">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="981" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581929646267" />
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1581929554475">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581929554475" />
+  </component>
+</project>
