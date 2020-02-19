@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1254d6b-46e4-45a5-8c8a-fa66e2585b04" name="Default Changelist" comment="Spring Bean PostConstruct and PreDestroy">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasche/springbootlearning/spring/profile/DemoBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasche/springbootlearning/spring/profile/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasche/springbootlearning/spring/profile/ProfileConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="f1254d6b-46e4-45a5-8c8a-fa66e2585b04" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasche/springbootlearning/spring/event/DemoEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasche/springbootlearning/spring/event/DemoListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasche/springbootlearning/spring/event/DemoPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasche/springbootlearning/spring/event/EventConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasche/springbootlearning/spring/event/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +64,7 @@
       <recent name="F:\Practice\SpringBootLearning\src\main\resources\com.tasche.springbootlearning.spring.springel" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -71,13 +72,13 @@
       <module />
       <method />
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tasche.springbootlearning.spring.aspectj.Main" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tasche.springbootlearning.spring.event.Main" />
       <module name="SpringBootLearning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tasche.springbootlearning.spring.aspectj.*" />
+          <option name="PATTERN" value="com.tasche.springbootlearning.spring.event.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +212,7 @@
       <workItem from="1581933984291" duration="495000" />
       <workItem from="1581934513003" duration="1724000" />
       <workItem from="1582087771796" duration="6840000" />
-      <workItem from="1582097172259" duration="1853000" />
+      <workItem from="1582097172259" duration="3744000" />
     </task>
     <task id="LOCAL-00001" summary="Initialization">
       <created>1581857502409</created>
@@ -269,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582097658386</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Spring Profile">
+      <created>1582100117324</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1582100117324</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,17 +291,18 @@
     <MESSAGE value="Spring Scope" />
     <MESSAGE value="Spring EL Expression" />
     <MESSAGE value="Spring Bean PostConstruct and PreDestroy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring Bean PostConstruct and PreDestroy" />
+    <MESSAGE value="Spring Profile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Profile" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1245" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1582099625930">
+    <state x="1245" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1582102658219">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1245" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582099625930" />
-    <state x="987" y="28" key="CommitChangelistDialog2" timestamp="1582099533784">
+    <state x="1245" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582102658219" />
+    <state x="987" y="28" key="CommitChangelistDialog2" timestamp="1582100115416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="987" y="28" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582099533784" />
+    <state x="987" y="28" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582100115416" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1581934651510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -302,22 +311,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1169" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581857466747" />
-    <state width="914" height="313" key="GridCell.Tab.0.bottom" timestamp="1582099877418">
+    <state width="914" height="313" key="GridCell.Tab.0.bottom" timestamp="1582103253008">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582099877418" />
-    <state width="914" height="313" key="GridCell.Tab.0.center" timestamp="1582099877418">
+    <state width="914" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582103253008" />
+    <state width="914" height="313" key="GridCell.Tab.0.center" timestamp="1582103253008">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="313" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582099877418" />
-    <state width="914" height="313" key="GridCell.Tab.0.left" timestamp="1582099877418">
+    <state width="914" height="313" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582103253008" />
+    <state width="914" height="313" key="GridCell.Tab.0.left" timestamp="1582103253008">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="313" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582099877418" />
-    <state width="914" height="313" key="GridCell.Tab.0.right" timestamp="1582099877418">
+    <state width="914" height="313" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582103253008" />
+    <state width="914" height="313" key="GridCell.Tab.0.right" timestamp="1582103253008">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="313" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582099877418" />
+    <state width="914" height="313" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582103253008" />
     <state width="1015" height="322" key="GridCell.Tab.1.bottom" timestamp="1581873651378">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -342,10 +351,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="823" y="189" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582097908423" />
-    <state x="981" y="249" key="Vcs.Push.Dialog.v2" timestamp="1582097691596">
+    <state x="981" y="249" key="Vcs.Push.Dialog.v2" timestamp="1582100118838">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="981" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582097691596" />
+    <state x="981" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582100118838" />
     <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1581929554475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
