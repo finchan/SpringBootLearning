@@ -9,8 +9,5 @@
         <module name="SpringBootLearning" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="SpringBootLearning" target="11" />
-    </bytecodeTargetLevel>
   </component>
 </project>
