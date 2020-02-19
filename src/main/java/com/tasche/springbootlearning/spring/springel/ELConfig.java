@@ -28,7 +28,7 @@ import java.io.IOException;
  */
 @Configuration
 @ComponentScan("com.tasche.springbootlearning.spring.springel")
-@PropertySource("classpath:com.tasche.springbootlearning.spring.springel/test.properties")
+@PropertySource("classpath:com/tasche/springbootlearning/spring/springel/test.properties")
 public class ELConfig {
     @Value("I love you!")
     private String normal;
@@ -42,7 +42,7 @@ public class ELConfig {
     @Value("#{demoService.another}")
     private String fromAnother;
 
-    @Value("classpath:com.tasche.springbootlearning.spring.springel/test.txt")
+    @Value("classpath:com/tasche/springbootlearning/spring/springel/test.txt")
     private Resource testFile;
 
     @Value("http://www.baidu.com")
