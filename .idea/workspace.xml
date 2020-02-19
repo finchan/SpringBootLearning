@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1254d6b-46e4-45a5-8c8a-fa66e2585b04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasche/springbootlearning/spring/scope/DemoPrototypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasche/springbootlearning/spring/scope/DemoSingletonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasche/springbootlearning/spring/scope/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasche/springbootlearning/spring/scope/ScopeConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasche/springbootlearning/spring/springel/DemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasche/springbootlearning/spring/springel/ELConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tasche/springbootlearning/spring/springel/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com.tasche.springbootlearning.spring.springel/test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com.tasche.springbootlearning.spring.springel/test.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/META-INF/SpringBootLearning.kotlin_module" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/com/tasche/springbootlearning/spring/aspectj/Action.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/com/tasche/springbootlearning/spring/aspectj/AopConfig.class" afterDir="false" />
@@ -32,8 +25,8 @@
       <change afterPath="$PROJECT_DIR$/target/classes/com/tasche/springbootlearning/spring/di/javaconfiguration/UseFunctionService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/SpringBootLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SpringBootLearning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,9 +76,14 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Practice\SpringBootLearning\src\main\resources\com.tasche.springbootlearning.spring.springel" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -128,6 +126,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tasche.springbootlearning.spring.scope.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tasche.springbootlearning.spring.springel.Main" />
+      <module name="SpringBootLearning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tasche.springbootlearning.spring.springel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,6 +194,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
@@ -216,7 +229,8 @@
       <workItem from="1581933396797" duration="276000" />
       <workItem from="1581933692146" duration="53000" />
       <workItem from="1581933984291" duration="495000" />
-      <workItem from="1581934513003" duration="1579000" />
+      <workItem from="1581934513003" duration="1724000" />
+      <workItem from="1582087771796" duration="3768000" />
     </task>
     <task id="LOCAL-00001" summary="Initialization">
       <created>1581857502409</created>
@@ -253,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581929718173</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Spring Scope">
+      <created>1581936206266</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581936206266</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,13 +285,18 @@
     <MESSAGE value="The First Spring DI Sample" />
     <MESSAGE value="Java Configuration" />
     <MESSAGE value="Spring AOP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring AOP" />
+    <MESSAGE value="Spring Scope" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Scope" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="987" y="28" key="CommitChangelistDialog2" timestamp="1581929716088">
+    <state x="1245" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1582088202360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="987" y="28" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581929716088" />
+    <state x="1245" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582088202360" />
+    <state x="987" y="28" key="CommitChangelistDialog2" timestamp="1581936203338">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="987" y="28" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581936203338" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1581934651510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -279,22 +305,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1169" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581857466747" />
-    <state width="1015" height="322" key="GridCell.Tab.0.bottom" timestamp="1581873651377">
+    <state width="914" height="278" key="GridCell.Tab.0.bottom" timestamp="1582091471819">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1015" height="322" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581873651377" />
-    <state width="1015" height="322" key="GridCell.Tab.0.center" timestamp="1581873651377">
+    <state width="914" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582091471819" />
+    <state width="914" height="278" key="GridCell.Tab.0.center" timestamp="1582091471819">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1015" height="322" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581873651377" />
-    <state width="1015" height="322" key="GridCell.Tab.0.left" timestamp="1581873651377">
+    <state width="914" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582091471819" />
+    <state width="914" height="278" key="GridCell.Tab.0.left" timestamp="1582091471819">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1015" height="322" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581873651377" />
-    <state width="1015" height="322" key="GridCell.Tab.0.right" timestamp="1581873651377">
+    <state width="914" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582091471819" />
+    <state width="914" height="278" key="GridCell.Tab.0.right" timestamp="1582091471819">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1015" height="322" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581873651377" />
+    <state width="914" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582091471819" />
     <state width="1015" height="322" key="GridCell.Tab.1.bottom" timestamp="1581873651378">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -315,14 +341,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="695" y="230" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581934647493" />
-    <state x="805" y="111" key="SettingsEditor" timestamp="1581936104262">
+    <state x="823" y="208" key="SettingsEditor" timestamp="1582089626189">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="805" y="111" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581936104262" />
-    <state x="981" y="249" key="Vcs.Push.Dialog.v2" timestamp="1581929723925">
+    <state x="823" y="208" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582089626189" />
+    <state x="981" y="249" key="Vcs.Push.Dialog.v2" timestamp="1581936209628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="981" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581929723925" />
+    <state x="981" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581936209628" />
     <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1581929554475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
