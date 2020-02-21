@@ -7,7 +7,9 @@
     </head>
     <body>
         <pre>
-            Welcome to Spring MVC world.
+            为什么页面不放在Maven标准的src/main/webapp/WEB-INF下呢？<br>
+            Spring Boot的页面习惯的放置方式就是放置在/src/main/resources下的<br>
+            resources的资源部署时会被放置在WEB-INF/classes对应目录里
         </pre>
     </body>
  </html>
